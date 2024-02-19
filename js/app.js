@@ -8,7 +8,7 @@ let xValue = 0,
 window.addEventListener('mousemove', (e) => {
     xValue = e.clientX - window.innerWidth / 2;
     yValue = e.clientY - window.innerHeight / 2;
-    if (yValue < -250) yValue = -250;
+    if (yValue < -133) yValue = -133;
     if (yValue > 110) yValue = 110;
     console.log(xValue, yValue);
 
